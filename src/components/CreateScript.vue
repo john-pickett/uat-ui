@@ -2,7 +2,7 @@
 	<v-container>
 		<v-layout wrap>
 			<v-flex text-xs-center mb-4 sm12>
-				<h3 class="display-2 font-weight-bold mb-3">Create Script</h3>
+				<h3 class="display-2 mb-3">Create Script</h3>
 			</v-flex>
 			<v-flex mb-5 xs12 sm6>
 				<v-card>
