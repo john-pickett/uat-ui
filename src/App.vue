@@ -40,4 +40,8 @@ export default {
 	a span {
 		color: black;
 	}
+
+	.title {
+		font-size: 18px;
+	}
 </style>

@@ -1,8 +1,8 @@
 <template>
 	<v-container>
-		<v-layout text-xs-center wrap>
-			<v-flex mb-4>
-				<h1 class="display-2 font-weight-bold mb-3">UAT</h1>
+		<v-layout wrap>
+			<v-flex text-xs-center mb-4>
+				<h3 class="display-2 font-weight-bold mb-3">UAT</h3>
 			</v-flex>
 			<v-flex mb-5 xs12>
 				<p><router-link to="/create"><v-btn color="green">Create Script</v-btn></router-link></p>
