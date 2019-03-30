@@ -2,7 +2,7 @@
 	<div :id="id" class="my-1">
 		<v-card>
 			<v-card-title class="text-sm-right">
-				<h3 class="headline">Step One</h3>
+				<h3 class="headline">Step</h3>
 			</v-card-title>
 			<v-card-text>
 				<v-text-field
@@ -21,7 +21,7 @@
 
 <script>
 export default {
-	props: ['steps', 'stepNumber'],
+	props: ['steps', 'currentStep'],
 	data: () => ({
 		id: null
 	}),

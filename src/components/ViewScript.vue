@@ -1,11 +1,18 @@
 <template>
-	<v-container>
-		<v-layout text-xs-center wrap>
-			<v-flex mb-4>
-				<h1 class="display-2 font-weight-bold mb-3">View Script</h1>
+	<v-container grid-list-md>
+		<v-layout wrap>
+			<v-flex text-xs-center mb-4 sm12>
+				<h3 class="display-2 mb-3">View Script</h3>
 			</v-flex>
-			<v-flex mb-5 xs12>
-				<p>content here</p>
+			<v-flex mb-5 xs12 sm6>
+				<v-card>
+					<p>card</p>
+				</v-card>
+			</v-flex>
+			<v-flex mb-5 xs12 sm6>
+				<v-card>
+					<p>card</p>
+				</v-card>
 			</v-flex>
 		</v-layout>
 	</v-container>
