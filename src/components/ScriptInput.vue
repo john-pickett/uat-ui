@@ -14,6 +14,10 @@
 					hint="Describe what they should see as a result of the action."
 				></v-text-field>
 			</v-card-text>
+            <v-card-actions>
+                <v-btn flat color="error" @click="removeStep" id="remove-step-btn">Remove This Step</v-btn>
+				<v-btn flat color="green" @click="addStep" id="add-step-btn">Add Step</v-btn>
+            </v-card-actions>
 		</v-card>
 		
 	</div>
